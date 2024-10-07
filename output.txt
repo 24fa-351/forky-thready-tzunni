@@ -1,0 +1,16 @@
+Output of forky 0 10 parallel:
+Process 1 (19787) is beginning
+Process 1 (19787) is ending
+Process 2 (19788) is beginning
+Process 2 (19788) is ending
+
+Output of forky 0 10 sequential:
+Process 0 (20245) creating Process 1 (20246)
+Process 1 (20246) is beginning
+Process 1 (20246) creating Process 2 (20294)
+Process 2 (20294) is beginning
+Process 2 (20294) creating Process 3 (20308)
+Process 3 (20308) is beginning
+Process 3 (20308) is ending
+Process 2 (20294) is ending
+Process 1 (20246) is ending
